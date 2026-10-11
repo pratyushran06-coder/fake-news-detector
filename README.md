@@ -312,9 +312,6 @@ python -m pytest tests/test_api.py -v
 
 ## 📸 Screenshots
 
-
-## Screenshots
-
 ### Application Dashboard
 ![Fake News Detector Dashboard](docs/screenshots/dashboard.png)
 
@@ -352,9 +349,9 @@ python -m pytest tests/test_api.py -v
 
 Developed by **[Your Name]**
 
-- **GitHub**: [github.com/your-username](https://github.com/your-username)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- **Portfolio / Email**: `your.email@example.com`
+- **GitHub**: [github.com/pratyushran06-coder](https://github.com/pratyushran06-coder)
+- **LinkedIn**: [linkedin.com/in/pratyush-ranjan-mahanta](https://www.linkedin.com/in/pratyush-ranjan-mahanta)
+- **Portfolio / Email**: `pratyushran06@gmail.com`
 
 ---
 

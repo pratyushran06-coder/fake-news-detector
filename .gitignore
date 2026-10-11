@@ -1,0 +1,61 @@
+# =====================================================================
+# Fake News Detector - Git Ignore Configuration
+# =====================================================================
+
+# Environment & Secrets (NEVER commit live secrets)
+.env
+.env.local
+.env.*
+!*.env.example
+*.pem
+*.key
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Bytecode, Caching & Testing
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+logs/
+
+# Large Dataset Files (>50MB violates GitHub push limits)
+# Download / generate via scripts/prepare_dataset.py
+data/*.csv
+data/*.zip
+data/*.tar.gz
+!data/.gitkeep
+
+# Machine Learning Checkpoints & Heavy Model Binaries
+# (Models are reproduced via models/train_bert.py)
+saved_models/
+models/saved_model/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Jupyter Notebook Artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE, OS, and Temporary Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.bak
+scratch/

@@ -1,0 +1,2 @@
+# Keep data directory tracked in Git.
+# Raw and processed CSVs (Fake.csv, True.csv, processed_news.csv) are excluded via .gitignore due to size limits.

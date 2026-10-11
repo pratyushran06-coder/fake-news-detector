@@ -312,17 +312,21 @@ python -m pytest tests/test_api.py -v
 
 ## 📸 Screenshots
 
-To showcase the live user interface in your repository:
-1. Save the dashboard screenshot to [`docs/screenshots/streamlit_ui.png`](file:///d:/Fake-%20News-Detector/docs/screenshots/).
-2. Save the Swagger API screenshot to [`docs/screenshots/api_docs.png`](file:///d:/Fake-%20News-Detector/docs/screenshots/).
 
-| Streamlit Dashboard | Interactive API Docs (`/docs`) |
-| :---: | :---: |
-| ![Dashboard Screenshot](docs/screenshots/streamlit_ui.png) | ![API Docs Screenshot](docs/screenshots/api_docs.png) |
+## Screenshots
 
-*(If the images above show as placeholders, capture screenshots of the running app at `http://localhost:8501` and `http://127.0.0.1:8000/docs`, save them in `docs/screenshots/`, and commit them).*
+### Application Dashboard
+![Fake News Detector Dashboard](docs/screenshots/dashboard.png)
 
----
+### Prediction Result
+![News Prediction Result](docs/screenshots/prediction-result.png)
+
+### API Documentation
+![FastAPI Documentation](docs/screenshots/api-docs.png)
+
+### Automated Tests
+![Automated Test Results](docs/screenshots/tests-passed.png)
+
 
 ## ⚠️ Limitations & Academic Disclaimer
 
